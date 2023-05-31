@@ -1,0 +1,58 @@
+.filtered-word-list-container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  select {
+    padding: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+  }
+  
+  .word-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .filtered-word-list-container {
+      max-width: 100%;
+      padding: 0 16px;
+    }
+  
+    .word-table tr {
+      display: block;
+      margin-bottom: 16px;
+    }
+  
+    .word-table td {
+      display: block;
+    }
+  
+    .word-table td:nth-child(1) {
+      margin-bottom: 8px;
+    }
+  
+    .word-table td:nth-child(2),
+    .word-table td:nth-child(3) {
+      margin-bottom: 4px;
+    }
+  }
+  
